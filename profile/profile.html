@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://use.fontawesome.com/releases/v6.5.2/css/all.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="px-10">
+      <img class="mx-auto" src="header.jpg" alt="PlaySK Piano Roll Reader playing on Disklavier">
+      PlaySK Piano Roll Reader App plays a historic piano roll
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="py-5 grid-item" id="profile">
+          <div class="flex bg-slate-600 text-white">
+            <i class="fa-solid fa-user text-3xl mx-2"></i>
+            <h1 class="text-3xl font-bold">Profile</h1>
+          </div>
+          <p class="text-xl font-bold">Sasaki Katsumasa / Katz Sasaki / @nai-kon</p>
+          <ul class="list-inside list-disc p-2">
+            <li>Tokyo, Japan</li>
+            <li>ML engineer / Software developer</li>
+            <li>Works at Tax-Accounting system vendor in Japan</li>  
+            <li>Interesting in digitalize historic player piano rolls</li>  
+          </ul>
+        </div>
+        <div class="py-5 grid-item" id="cert">
+          <div class="flex bg-slate-600 text-white">
+            <i class="fa-regular fa-id-card text-3xl mx-2"></i>
+            <h1 class="text-3xl font-bold">Certification </h1>
+          </div>
+          <ul class="list-inside list-disc p-2">
+            <li>基本情報技術者 </li>
+            <li>応用情報技術者</li>
+            <li>JDLA G検定</li>
+            <li>TOEIC L&R 770点 (Listening 375/Reading 395、2013年11月 公開テスト) </li>  
+            <li>普通自動車第一種免許 (MT) </li>  
+          </ul>
+        </div>
+        <div class="py-5 grid-item" id="links">
+          <div class="flex bg-slate-600 text-white">
+            <i class="fa-solid fa-link text-3xl mx-2"></i>
+            <h1 class="text-3xl font-bold">Links</h1>
+          </div>
+          <ul class="list-inside list-disc p-2">
+            <li><a href="https://github.com/nai-kon" target="_blank"><i class="fa-brands fa-github"></i> GitHub @nai-kon</a></li>
+            <li><a href="https://x.com/kuranabe2010" target="_blank"><i class="fa-brands fa-x-twitter"></i> Twitter @kuranabe2010</a></li>
+            <li><a href="https://www.youtube.com/@kyokutyou2007" target="_blank"><i class="fa-brands fa-youtube"></i> Youtube @kyokutyou2007</a></li>
+            <li><a href="https://www.paypal.com/paypalme/KatzSasaki" target="_blank"><i class="fa-brands fa-cc-paypal"></i> PayPal</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="py-5" id="works">
+        <div class="flex bg-slate-600 text-white">
+          <i class="fa-solid fa-code text-3xl mx-2"></i>
+          <h1 class="text-3xl font-bold">Private Works</h1>
+        </div>
+
+        <div class="p-2">
+          <p class="text-2xl font-bold">▶PlaySK Piano Roll Reader / ピアノロールのデジタル化ソフト</p>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <img class="h-[270px]" src="PlaySK Demo.png" alt="PlaySK Piano Roll Reader plays Chopin Tarantella">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/Pot8ff4fbEU?si=EWx2KlxmfdPP90cF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/J9JHP0wx0P4?si=x9vVx9HHLev4vead" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <p>約100年前の自動演奏ピアノのピアノロール画像を読み取り、ノートやペダル、強弱をリアルタイムにエミュレーションしてMIDIを出力する世界的にも珍しいソフトです。</p>
+          <p>音源ソフトやヤマハの自動演奏ピアノにMIDI接続することで100年前の演奏を現代に蘇らせることが出来ます。</p>
+          <p>2014年の初版以降改良を重ね、現在ではアメリカを始めとする英語圏のユーザーから指示を得ており、ユーザーの要望に応じた機能追加を随時行っています。</p>
+          
+          <div>
+            <p class="text-xl font-bold">特徴</p>
+            <ul class="list-inside list-disc p-2">
+              <li>ピアノロール画像をリアルタイムに読み取り、演奏をエミュレート</li>
+              <li>自動演奏ピアノの3大ブランドAmpico, Duo-Art, Welteを始めとする様々なフォーマットに対応</li>
+              <li>エミュレートした強弱(空気圧)をグラフで表示</li>
+              <li>入力画像は標準的な.jpgや.png等に加え、ロールスキャン専用フォーマットの.CISに対応</li>
+              <li>Windows / MacOSに対応</li>
+            </ul>
+          </div>
+          
+          <div>
+            <p class="text-xl font-bold">掲載</p>
+            <ul class="list-inside list-disc p-2">
+              <li><a class="underline text-blue-600" href="https://www.mmdigest.com/Archives/Digests/202402/2024.02.16.04.html" target="_blank">Mechanical Music Digest, "Real-time Piano Roll to MIDI Player"</a></li>
+              <li><a class="underline text-blue-600" href="https://pianostudio299.com/information/translationg-pianoroll-to-midi/" target="_blank">pianostudio299, "100年の時を超えて蘇る演奏"</a></li>
+            </ul>
+          </div>
+          
+
+          <div>
+            <p class="text-xl font-bold">ダウンロード</p>
+            <div class="flex gap-2">
+              <div class="bg-green-400 text-xl text-white py-3 px-10 rounded-xl"> 
+                <a class="block" href="https://github.com/nai-kon/PlaySK-Piano-Roll-Reader/releases/latest/download/PlaySK-PianoRoll-Reader-Win.x64.zip" target="_blank">
+                  Windows <i class="fa-solid fa-download"></i>
+                </a>
+              </div>
+              <div class="bg-green-400 text-xl text-white py-3 px-10 rounded-xl"> 
+                <a class="block" href="https://github.com/nai-kon/PlaySK-Piano-Roll-Reader/releases/latest/download/PlaySK-PianoRoll-Reader-Mac.ARM.zip " target="_blank">
+                  Mac (M1~3) <i class="fa-solid fa-download"></i>
+                </a>
+              </div>
+              <div class="bg-green-400 text-xl text-white py-3 px-10 rounded-xl"> 
+                <a class="block" href="https://github.com/nai-kon/PlaySK-Piano-Roll-Reader/releases/latest/download/PlaySK-PianoRoll-Reader-Mac.x64.zip " target="_blank">
+                  Mac (Intel) <i class="fa-solid fa-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+  </body>
+</html>
