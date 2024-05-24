@@ -87,7 +87,20 @@
           <p>MIDIを音源ソフトやヤマハの自動演奏ピアノに出力すれば100年前の演奏を現代に蘇らせることが出来ます。</p>
           <p>2014年の初版以降改良を重ね、現在ではアメリカを始めとする英語圏のユーザーから指示を得ており、ユーザーの要望に応じた機能追加を随時行っています。</p>
           <p>Python製でGUIにwxpyhonを使っています。画素計算やファイルのデコード処理はnumpyやCythonで高速化しています。また、GitHub Actionsでユニットテストやリリースバイナリの作成・署名のCI/CDを構築して自動化しています。</p>
-          
+
+          <div class="flex flex-wrap gap-2 my-5">
+            <div class="bg-blue-400 text-xl text-white py-3 px-10 rounded-xl"> 
+              <a href="https://github.com/nai-kon/PlaySK-Piano-Roll-Reader" target="_blank">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+
+            <div class="bg-pink-400 text-xl text-white py-3 px-10 rounded-xl"> 
+              <a  href="https://www.paypal.com/paypalme/KatzSasaki" target="_blank">
+                <i class="fa-solid fa-hand-holding-dollar"></i> Donate
+              </a>
+            </div>
+          </div>          
           <div>
             <p class="text-xl font-bold py-2">特徴</p>
             <ul class="list-inside list-disc">
@@ -101,35 +114,23 @@
 
           <div>
             <p class="text-xl font-bold py-2">ダウンロード</p>
-            <div class="flex gap-2">
+            <div class="flex flex-wrap gap-2">
               <div class="bg-green-400 text-xl text-white py-3 px-10 rounded-xl"> 
-                <a class="block" href="https://github.com/nai-kon/PlaySK-Piano-Roll-Reader/releases/latest/download/PlaySK-PianoRoll-Reader-Win.x64.zip" target="_blank">
+                <a href="https://github.com/nai-kon/PlaySK-Piano-Roll-Reader/releases/latest/download/PlaySK-PianoRoll-Reader-Win.x64.zip" target="_blank">
                   Windows <i class="fa-solid fa-download"></i>
                 </a>
               </div>
               <div class="bg-green-400 text-xl text-white py-3 px-10 rounded-xl"> 
-                <a class="block" href="https://github.com/nai-kon/PlaySK-Piano-Roll-Reader/releases/latest/download/PlaySK-PianoRoll-Reader-Mac.ARM.zip" target="_blank">
+                <a href="https://github.com/nai-kon/PlaySK-Piano-Roll-Reader/releases/latest/download/PlaySK-PianoRoll-Reader-Mac.ARM.zip" target="_blank">
                   Mac (M1~3) <i class="fa-solid fa-download"></i>
                 </a>
               </div>
               <div class="bg-green-400 text-xl text-white py-3 px-10 rounded-xl"> 
-                <a class="block" href="https://github.com/nai-kon/PlaySK-Piano-Roll-Reader/releases/latest/download/PlaySK-PianoRoll-Reader-Mac.x64.zip" target="_blank">
+                <a href="https://github.com/nai-kon/PlaySK-Piano-Roll-Reader/releases/latest/download/PlaySK-PianoRoll-Reader-Mac.x64.zip" target="_blank">
                   Mac (Intel) <i class="fa-solid fa-download"></i>
                 </a>
               </div>
-
-              <div class="bg-blue-400 text-xl text-white ml-10 py-3 px-10 rounded-xl"> 
-                <a class="block" href="https://github.com/nai-kon/PlaySK-Piano-Roll-Reader" target="_blank">
-                  <i class="fa-brands fa-github"></i> GitHub
-                </a>
-              </div>
-
-              <div class="bg-pink-400 text-xl text-white py-3 px-10 rounded-xl"> 
-                <a class="block" href="https://www.paypal.com/paypalme/KatzSasaki" target="_blank">
-                  <i class="fa-solid fa-hand-holding-dollar"></i> Donate
-                </a>
-              </div>
-            </div>
+            </div>      
           </div>
 
           <div>
@@ -176,7 +177,7 @@
             <p>バックエンドはPython/Flask/pytorch、フロントエンドはHTML5/JavaScript/TailwindCSSで構成。</p>
             <p>以前は自宅SVにホストしていましたが、現在はGoogle App Engineにホストしています。</p>
           </p>
-          <div class="flex gap-2 m-5">
+          <div class="flex flex-wrap gap-2 m-5">
             <div class="bg-blue-400 text-xl text-white py-3 px-10 rounded-xl"> 
               <a class="block" href="https://digit-recog-torch.uc.r.appspot.com/" target="_blank">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo Site
