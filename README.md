@@ -6,3 +6,9 @@
 </a>
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=nai-kon&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+
+
+# Link
+
+* Works: https://nai-kon.github.io/
+* Donate: https://www.paypal.com/paypalme/KatzSasaki
