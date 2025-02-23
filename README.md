@@ -11,4 +11,5 @@
 # Link
 
 * Works: https://nai-kon.github.io/
+* Blog: https://kuranabe.hatenablog.com/
 * Donate: https://www.paypal.com/paypalme/KatzSasaki
